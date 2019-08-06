@@ -426,8 +426,8 @@ padding: 0;
 	.logotype {
 		width: 100%;
 		height: 100px;
-		top: 320px;
-		left: -10px;
+		top: 330px;
+		left: -5px;
 		display: flex;
 		justify-content: center;
 		align-items: center;

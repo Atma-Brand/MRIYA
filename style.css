@@ -426,8 +426,8 @@ padding: 0;
 	.logotype {
 		width: 100%;
 		height: 100px;
-		top: 400px;
-		
+		top: 320px;
+		left: -10px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -446,7 +446,7 @@ padding: 0;
 	}
 	.title {
 		width: 100%;
-		
+
 		text-align: center;
 		position: static !important;
 		font-size: 18px;

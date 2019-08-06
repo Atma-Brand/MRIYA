@@ -1,0 +1,496 @@
+@font-face{
+	font-family: 'Gotha';
+src: url('fonts/GothaProBol.otf');
+}
+@font-face{
+	font-family: 'Pfd-medium';
+src: url('fonts/PFDINTEXTCONDPRO-MEDIUM.TTF');
+}
+@font-face{
+	font-family: 'Pfd-reg';
+src: url('fonts/pfdintextcomppro-regular.ttf');
+}
+
+body {
+	margin: 0;
+	padding: 0;	
+	overflow-x: hidden;
+	font-family: 'Pfd-reg';
+	color: #4B4E4E;
+
+}
+.wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+
+}
+.flex_container {
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 1000px;
+
+}
+.logo {
+	width: 100%;
+	position: relative;
+}
+.logotype {
+	position: absolute;
+	bottom: 190px;
+}
+.baloons {
+	width: 100%;
+	margin-left: 300px;
+}
+.title {
+	margin-left: -200px;
+	text-align: left;
+	font-size: 32px;
+	text-transform: uppercase;
+	font-family: 'Gotha';
+}
+.row,.center {
+	position: relative;
+	margin-top: 80px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	min-height: 100px;
+}
+.flag {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.coutry_title {
+display: none;
+}
+.with_flag {
+display: flex;
+margin-left: 30px;
+}
+.flag img {
+	width: 150px;
+	height: 100px;
+	margin-left: -40px;
+}
+.time {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	right: 0;
+	font-family: 'Gotha';
+}
+.time span {
+	font-size: 32px;
+}
+.coutry_title {
+	font-size: 30px;
+	margin-bottom: 30px;
+	font-family: 'Pfd-medium';
+}
+.coutry_description {
+	
+	margin-top: -30px;
+	font-size: 24px;
+	margin-bottom: 30px;
+	max-width: 800px;
+	position: relative;
+}
+.coutry_description img {
+	z-index: -1;
+	position: absolute;
+	width: 250px;
+	right: -20%;
+	top: -10px;
+	
+}
+.pasport {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: #A89879;
+}
+.pasport span {
+	text-align: center;
+}
+.center {
+	
+	max-width: 500px !important;
+		font-size: 24px;
+	margin-bottom: 30px;
+	
+	position: relative;
+}
+.gold {
+	color:#A89879;
+}
+.small {
+	font-size: 22px;
+}
+.baloons_fot {
+	width: 90%;
+	position: absolute;
+	right: -500px;
+	top: 100px;
+}
+.footer_title {
+	font-size: 30px;
+	margin-bottom: 30px;
+	font-family: 'Pfd-medium';
+	color:#A89879;
+	
+}
+.footer {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	max-width: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer_block {
+margin: 0;
+padding: 0;
+	width: 160px;
+	height: 100px;
+	background-color: #A89879;
+	border-top-right-radius: 30px;
+	border-top-left-radius:30px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.footer_block span {
+	padding-top: 30px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+	.footer_title_mobile {
+		display: none;
+		font-size: 24px !important;
+	}
+@media screen and (max-width: 1025px) {
+	.logo {
+		
+	padding-left: 30px;
+	}
+	.title {
+		margin-left: -100px;
+		padding-left: 30px;
+	}
+	.coutry_title {
+		padding-left: 30px;
+	}
+	.coutry_description {
+	padding-left: 30px;
+	}
+	.time {
+		padding-right: 30px;
+	}
+
+}
+@media screen and (min-width: 0px) and (max-width: 900px) {
+	.coutry_description img {
+		right: 0;
+	}
+}
+@media screen and (min-width: 0px) and (max-width: 800px) {
+	.row {
+		margin-top: 20px;
+	}
+		.center {
+		margin-left:60px;
+	}
+	.baloons_fot {
+		width: 200px;
+		right: 100px;
+	}
+	.with_flag {
+		display: none !important;
+	}
+	.coutry_title{
+		display: flex;
+	}
+	.title {
+		font-size: 18px;
+		margin-left: 0;
+	}
+	.small {
+		margin: 30 !important;
+	}
+}
+@media screen and (min-width: 415px) and (max-width: 500px) {
+
+	
+	.time {
+		margin-top: 6px;
+	}
+	.logo {
+		width: 100%;
+		height: 500px;
+	}
+	.logotype {
+		width: 100%;
+		height: 100px;
+		top: 360px;
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+			}
+	.logotype img {
+
+		width: 200px;
+	}
+	.baloons {
+		width: 360px;
+		overflow-x: hidden;
+		margin-left: 0;
+	}
+	.baloons img {
+		width: 100%;
+	}
+	.title {
+		position: static !important;
+		font-size: 20px;
+	}
+	.time span {
+		font-size: 22px;
+	}
+	.flag img {
+		width: 140px;
+		height: 60px;
+	}
+	.coutry_title {
+		font-size: 24px;
+	}
+	.coutry_description {
+		font-size: 20px;
+		max-width: 360px;
+	}
+	.coutry_description img {
+		width: 160px;
+	}
+	.pasport {
+		margin-bottom: 40px;
+	}
+	.pasport span {
+		font-size: 16px;
+	}
+	.footer_title {
+		display: none;
+	}
+	.footer_title_mobile {
+		display: flex;
+	}
+			.center {
+				max-width: 320px !important; 
+		margin-left:50px;
+		font-size: 20px;
+	}
+	.baloons_fot {
+		display: none;
+	}
+}
+@media screen and (min-width: 361px) and (max-width: 414px) {
+	body {
+		width: 100%;
+		max-width: 414px;
+		overflow-x: hidden;
+	}
+	.wrapper {
+		width: 100%;
+		overflow-x: hidden;
+	}
+	.flex_container {
+		width: 100%;
+		overflow-x: hidden;
+	}
+	.time {
+		margin-top: 6px;
+	}
+	.logo {
+		width: 100%;
+		height: 500px;
+	}
+	.logotype {
+		width: 100%;
+		height: 100px;
+		top: 400px;
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+			}
+	.logotype img {
+
+		width: 200px;
+	}
+	.baloons {
+		width: 380px;
+		overflow-x: hidden;
+		margin-left: 0;
+	}
+	.baloons img {
+		width: 100%;
+	}
+	.title {
+		position: static !important;
+		font-size: 20px;
+	}
+	.time span {
+		font-size: 22px;
+	}
+	.flag img {
+		width: 140px;
+		height: 60px;
+	}
+	.coutry_title {
+		font-size: 24px;
+	}
+	.coutry_description {
+		font-size: 20px;
+		max-width: 335px;
+	}
+	.coutry_description img {
+		width: 160px;
+	}
+	.pasport {
+		margin-bottom: 40px;
+	}
+	.pasport span {
+		font-size: 16px;
+	}
+	.footer_title {
+		font-size: 16px;
+	}
+			.center {
+				max-width: 335px !important; 
+		margin-left:50px;
+		font-size: 20px;
+	}
+	.baloons_fot {
+		display: none;
+	}
+		.footer_title {
+		display: none;
+	}
+	.footer_title_mobile {
+		display: flex;
+	}
+}
+@media screen and (min-width: 0px) and (max-width: 360px) {
+	body {
+		width: 100%;
+		max-width: 360px;
+		overflow-x: hidden;
+	}
+	.wrapper {
+		width: 100%;
+		overflow-x: hidden;
+	}
+	.flex_container {
+		width: 100%;
+		overflow-x: hidden;
+	}
+	.wrapper_k {
+		max-width: 360px;
+	}
+	.time {
+		margin-top: 6px;
+	}
+	.logo {
+		width: 100%;
+		height: 500px;
+	}
+	.logotype {
+		width: 100%;
+		height: 100px;
+		top: 400px;
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+			}
+	.logotype img {
+
+		width: 200px;
+	}
+	.baloons {
+		width: 350px;
+		overflow-x: hidden;
+		margin-left: 0;
+	}
+	.baloons img {
+		width: 100%;
+	}
+	.title {
+		position: static !important;
+		font-size: 18px;
+		max-width: 300px;
+	}
+	.time span {
+		font-size: 22px;
+	}
+
+	.flag img {
+		width: 140px;
+		height: 60px;
+	}
+	.coutry_title {
+		font-size: 24px;
+	}
+	.coutry_description {
+		font-size: 20px;
+		max-width: 290px;
+	}
+	.coutry_description img {
+		width: 160px;
+	}
+	.pasport {
+		margin-bottom: 40px;
+	}
+	.pasport span {
+		font-size: 16px;
+	}
+	.footer_title {
+		font-size: 16px;
+	}
+			.center {
+				max-width: 300px !important; 
+		margin-left:30px;
+		font-size: 16px;
+	}
+	.small {
+		margin-left: 0px !important;
+	}
+	.baloons_fot {
+		display: none;
+	}
+		.footer_title {
+		display: none;
+	}
+	.footer_title_mobile {
+		display: flex;
+	}
+}

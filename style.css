@@ -19,6 +19,9 @@ body {
 	color: #4B4E4E;
 
 }
+.logotype_mobile {
+		display: none;
+	}
 .wrapper {
 	width: 100%;
 	height: 100%;
@@ -232,7 +235,7 @@ padding: 0;
 		display: flex;
 	}
 	.title {
-		font-size: 18px;
+		font-size:22px;
 		margin-left: 0;
 	}
 	.small {
@@ -257,6 +260,7 @@ padding: 0;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		display: none;
 			}
 	.logotype img {
 
@@ -272,7 +276,7 @@ padding: 0;
 	}
 	.title {
 		position: static !important;
-		font-size: 20px;
+		font-size: 22px;
 	}
 	.time span {
 		font-size: 22px;
@@ -311,6 +315,9 @@ padding: 0;
 	.baloons_fot {
 		display: none;
 	}
+	.logotype_mobile {
+		display: flex;
+	}
 }
 @media screen and (min-width: 361px) and (max-width: 414px) {
 	body {
@@ -341,6 +348,7 @@ padding: 0;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		display: none;
 			}
 	.logotype img {
 
@@ -398,6 +406,9 @@ padding: 0;
 	.footer_title_mobile {
 		display: flex;
 	}
+	.logotype_mobile {
+		display: flex;
+	}
 }
 @media screen and (min-width: 0px) and (max-width: 360px) {
 	body {
@@ -409,6 +420,7 @@ padding: 0;
 		width: 100%;
 		overflow-x: hidden;
 	}
+	
 	.flex_container {
 		width: 100%;
 		overflow-x: hidden;
@@ -427,10 +439,11 @@ padding: 0;
 		width: 100%;
 		height: 100px;
 		top: 330px;
-		left: -5px;
+		left: 10px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		display: none;
 			}
 	.logotype img {
 
@@ -449,7 +462,7 @@ padding: 0;
 
 		text-align: center;
 		position: static !important;
-		font-size: 18px;
+		font-size: 22px;
 		max-width: 300px;
 	}
 	.time span {
@@ -495,5 +508,13 @@ padding: 0;
 	}
 	.footer_title_mobile {
 		display: flex;
+	}
+	.logotype_mobile {
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	.logotype_mobile img {
+		width: 300px; 
 	}
 }

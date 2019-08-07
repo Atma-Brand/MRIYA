@@ -208,12 +208,19 @@ padding: 0;
 	.coutry_description table {
 		margin-bottom: 20px;
 	}
-@media screen and (max-width: 1025px) {
+@media screen and (min-width: 550px) {
+	.with_flag {
+		margin-left: 17px;
+	}
+}
+@media screen and (min-width: 1025px) {
 	.title {
 		margin-left: -100px;
 		padding-left: 30px;
 	}
-	
+	.with_flag {
+		margin-left: 47px;
+	}
 	.coutry_description {
 	padding-left: 30px;
 	}
@@ -240,6 +247,7 @@ padding: 0;
 
 	.coutry_title{
 		display: flex;
+		margin: 0;
 	}
 	.title {
 		font-size:22px;
@@ -247,6 +255,13 @@ padding: 0;
 	}
 	.small {
 		margin: 30 !important;
+	}
+	.coutry_description {
+		padding-top: 10px;
+		padding-left: 40px;
+	}
+	.with_flag {
+		margin-left: 57px;
 	}
 }
 @media screen and (min-width: 415px) and (max-width: 500px) {
@@ -297,6 +312,7 @@ padding: 0;
 	}
 	.coutry_title {
 		font-size: 24px;
+		margin: 0;
 	}
 	.coutry_description {
 		font-size: 20px;
@@ -392,6 +408,7 @@ padding: 0;
 	}
 	.coutry_title {
 		font-size: 24px;
+		margin: 0;
 	}
 	.coutry_description {
 		font-size: 20px;
@@ -510,6 +527,7 @@ padding: 0;
 	}
 	.coutry_title {
 		font-size: 24px;
+		margin: 0;
 	}
 	.coutry_description {
 		font-size: 20px;

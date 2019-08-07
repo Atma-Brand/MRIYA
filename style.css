@@ -10,7 +10,9 @@ src: url('fonts/PFDINTEXTCONDPRO-MEDIUM.TTF');
 	font-family: 'Pfd-reg';
 src: url('fonts/pfdintextcomppro-regular.ttf');
 }
-
+.time {
+	width: 100px !important;
+}
 body {
 	margin: 0;
 	padding: 0;	
@@ -24,8 +26,8 @@ body {
 	width: 100%;
 	height: 5px;
 	background-color: #A89879;
-	margin-top: 50px;
-	margin-bottom: 60px;
+	margin-top: 90px;
+	margin-bottom: 20px;
 }
 .logotype_mobile {
 		display: none;
@@ -329,7 +331,7 @@ padding: 0;
 }
 @media screen and (min-width: 361px) and (max-width: 414px) {
 	.time {
-		max-width: 115px;
+		max-width: 130px;
 	}
 	.new_title {
 		margin-left: 30px;
@@ -441,7 +443,8 @@ padding: 0;
 }
 @media screen and (min-width: 0px) and (max-width: 360px) {
 	.time {
-		max-width: 108px;
+		width: auto;
+		max-width: 130px;
 	}
 	.new_title {
 		margin-left: 30px !important;

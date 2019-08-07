@@ -351,6 +351,9 @@ padding: 0;
 	}
 }
 @media screen and (min-width: 361px) and (max-width: 414px) {
+	.line_del {
+		margin-bottom: 90px !important;
+	}
 	.time {
 		max-width: 130px;
 	}
@@ -464,6 +467,9 @@ padding: 0;
 	}
 }
 @media screen and (min-width: 0px) and (max-width: 360px) {
+	.line_del {
+		margin-bottom: 90px;
+	}
 	.time {
 		width: auto;
 		max-width: 130px;

@@ -13,7 +13,8 @@ src: url('fonts/pfdintextcomppro-regular.ttf');
 
 body {
 	margin: 0;
-	padding: 0;	
+	padding: 0;
+	-webkit-overflow-scrolling: touch;
 	overflow-x: hidden;
 	font-family: 'Pfd-reg';
 	color: #4B4E4E;

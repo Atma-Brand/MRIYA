@@ -193,10 +193,6 @@ padding: 0;
 		font-size: 24px !important;
 	}
 @media screen and (max-width: 1025px) {
-	.logo {
-		
-	padding-left: 30px;
-	}
 	.title {
 		margin-left: -100px;
 		padding-left: 30px;
@@ -264,7 +260,7 @@ padding: 0;
 			}
 	.logotype img {
 
-		width: 200px;
+		width: 300px;
 	}
 	.baloons {
 		width: 360px;
@@ -274,9 +270,13 @@ padding: 0;
 	.baloons img {
 		width: 100%;
 	}
-	.title {
+		.title {
+		width: 100%;
+
+		text-align: center;
 		position: static !important;
 		font-size: 22px;
+		padding: 0 !important;
 	}
 	.time span {
 		font-size: 22px;
@@ -352,7 +352,7 @@ padding: 0;
 			}
 	.logotype img {
 
-		width: 200px;
+		width: 300px;
 	}
 	.baloons {
 		width: 380px;
@@ -362,9 +362,13 @@ padding: 0;
 	.baloons img {
 		width: 100%;
 	}
-	.title {
+			.title {
+		width: 100%;
+
+		text-align: center;
 		position: static !important;
-		font-size: 20px;
+		font-size: 22px;
+		
 	}
 	.time span {
 		font-size: 22px;
@@ -406,8 +410,18 @@ padding: 0;
 	.footer_title_mobile {
 		display: flex;
 	}
-	.logotype_mobile {
+		.logotype_mobile {
 		display: flex;
+		text-align: center;
+		width: 100%;
+	}
+		.title {
+		width: 100%;
+
+		text-align: center;
+		position: static !important;
+		font-size: 22px;
+		padding: 0 !important;
 	}
 }
 @media screen and (min-width: 0px) and (max-width: 360px) {
@@ -438,8 +452,8 @@ padding: 0;
 	.logotype {
 		width: 100%;
 		height: 100px;
-		top: 330px;
-		left: 10px;
+		top: 370px;
+		
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -463,7 +477,7 @@ padding: 0;
 		text-align: center;
 		position: static !important;
 		font-size: 22px;
-		max-width: 300px;
+		padding: 0 !important;
 	}
 	.time span {
 		font-size: 22px;
@@ -510,7 +524,7 @@ padding: 0;
 		display: flex;
 	}
 	.logotype_mobile {
-		display: block;
+		display: flex;
 		text-align: center;
 		width: 100%;
 	}

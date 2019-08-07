@@ -196,6 +196,16 @@ padding: 0;
 	color: white;
 	font-size: 16px;
 }
+.footer_block span a {
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	font-family: 'Pfd-reg';
+}
+.footer_block span a:hover {
+	text-decoration: none;
+	color: white;
+}
 	.footer_title_mobile {
 		display: none;
 		font-size: 24px !important;
@@ -278,7 +288,7 @@ padding: 0;
 		width: 300px;
 	}
 	.baloons {
-		width: 360px;
+		width: 500px;
 		overflow-x: hidden;
 		margin-left: 0;
 	}
@@ -374,7 +384,7 @@ padding: 0;
 		width: 300px;
 	}
 	.baloons {
-		width: 100%;
+		width: 430px;
 		overflow-x: hidden;
 		margin-left: 0;
 	}
@@ -491,7 +501,7 @@ padding: 0;
 		width: 200px;
 	}
 	.baloons {
-		width: 350px;
+		width: 380px;
 		overflow-x: hidden;
 		margin-left: 0;
 	}
